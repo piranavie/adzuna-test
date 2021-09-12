@@ -1,0 +1,24 @@
+{
+  "name": "react-hook-form-validation",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "2.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "7.9.0",
+    "react-redux": "7.2.5",
+    "react-router": "^5.2.1",
+    "web-vitals": "2.1.0",
+    "yup": "0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}

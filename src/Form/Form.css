@@ -1,0 +1,61 @@
+.demoForm {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+label {
+	margin-bottom: 0.5em;
+	color: white;
+}
+
+input {
+	padding: 10px 10px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #d6d1d5;
+}
+
+input::placeholder {
+	font-size: 1.2em;
+	font-weight: lighter;
+}
+
+button {
+	min-width: 100%;
+	cursor: pointer;
+	margin-right: 0.25em;
+	margin-top: 0.5em;
+	padding: 	0.938em;
+	border: none;
+	border-radius: 4px;
+	background-color: rebeccapurple;
+	color: #fefefe;
+}
+button:hover {
+	background-color: #4A4E69;
+	color: #fefefe;
+}
+
+.fullName,
+.email,
+.notes {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+.fullName {
+	width: 100%;
+}
+
+.email,
+.notes {
+	width: 100%;
+}
+
+.submit {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
